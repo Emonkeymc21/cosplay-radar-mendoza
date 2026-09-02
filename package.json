@@ -34,7 +34,6 @@
     "@capacitor/preferences": "^6.0.2",
     "@capacitor/push-notifications": "^6.0.2",
     "@capacitor/splash-screen": "^6.0.2",
-    "@angular/pwa": "^0.18.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.10"
