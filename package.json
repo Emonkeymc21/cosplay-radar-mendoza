@@ -9,10 +9,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build:prod": "ng build --configuration production",
-    "cap:init": "npx cap init CosplayRadar com.cosplayradar.mendoza --web-dir=dist/cosplay-radar-mendoza",
-    "cap:add:android": "npm run build && npx cap add android",
-    "cap:sync": "npm run build && npx cap sync",
-    "cap:open:android": "npx cap open android"
+    "serve:ssr": "node dist/cosplay-radar-mendoza/server/server.mjs"
   },
   "dependencies": {
     "@angular/animations": "^18.2.12",
@@ -32,6 +29,7 @@
     "@angular/cli": "^18.2.12",
     "@angular/compiler-cli": "^18.2.12",
     "@types/jasmine": "~5.1.4",
+    "@types/node": "^20.11.0",
     "autoprefixer": "^10.4.20",
     "jasmine-core": "~5.2.0",
     "karma": "~6.4.4",
