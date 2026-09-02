@@ -1,0 +1,11 @@
+{
+  "buildCommand": "npm run build:prod",
+  "outputDirectory": "dist/cosplay-radar-mendoza",
+  "framework": "angular",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
